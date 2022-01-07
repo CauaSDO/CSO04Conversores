@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.convert(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Double(lbResult.text!)!">
+            </PersistentString>
+            <PersistentString
+               value = "String(format: &quot;%.2f&quot;, result).replacingOccurrences(of: &quot;.&quot;, with: &quot;.&quot;, options: .literal, range: nil)">
+            </PersistentString>
+            <PersistentString
+               value = "lbResult.text!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

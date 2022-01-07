@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KE3-7L-e3o">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="KE3-7L-e3o">
                                 <rect key="frame" x="43" y="382" width="289" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
@@ -53,15 +53,15 @@
                                             <action selector="showNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TWk-m0-fxm"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="piU-yt-cta">
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="piU-yt-cta">
                                         <rect key="frame" x="45" y="98" width="289" height="103"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99560552835464478" green="0.99560552835464478" blue="0.99506920576095581" alpha="0.19797926682692307" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="textColor" red="0.99560552835464478" green="0.99560552835464478" blue="0.99506920576095581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69R-O9-2yb">
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69R-O9-2yb">
                                         <rect key="frame" x="232" y="288" width="135" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
@@ -97,6 +97,7 @@
                         <outlet property="btUnit2" destination="69R-O9-2yb" id="fQd-I6-Rag"/>
                         <outlet property="lbResult" destination="KE3-7L-e3o" id="RQU-V4-mdg"/>
                         <outlet property="lbResultUnit" destination="81w-ec-7h7" id="nMr-zv-GUb"/>
+                        <outlet property="lbUnit" destination="mhU-qw-J6e" id="3Re-xd-Peg"/>
                         <outlet property="tfValue" destination="piU-yt-cta" id="6yP-yN-tUC"/>
                     </connections>
                 </viewController>
